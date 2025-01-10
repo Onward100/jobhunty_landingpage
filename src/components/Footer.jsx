@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
+  const [inputValue, setInputValue] = useState("");
+
+  function handleSubmit(e) {
+    setInputValue(e.target.value);
+
+    e.preventDefault();
+  }
   return (
     <>
       <section className="bg-gray-800 px-4 py-7 mt-11">
@@ -24,7 +31,7 @@ export default function Footer() {
           <div>
             <nav>
               <h1 className="text-white font-bold text-base">About</h1>
-              <ul>
+              <ul className="text-gray-300 mt-4">
                 <li>
                   <Link href="#">Companies</Link>
                 </li>
@@ -45,7 +52,7 @@ export default function Footer() {
 
             <nav>
               <h1 className="text-white font-bold text-base">Resources</h1>
-              <ul>
+              <ul className="text-gray-300 mt-4">
                 <li>
                   <Link href="#">Help Docs</Link>
                 </li>
@@ -73,13 +80,13 @@ export default function Footer() {
               <input
                 type="text"
                 value={inputValue}
-                onChange={(e) => {
-                  setInputValue(e.target.value);
-                }}
+                onChange={handleSubmit}
                 placeholder="Email Address"
                 className="w-full outline-none bg-white p-3"
               />
-              <button className="bg-blue-600 text-white font-bold p-2">Subscribe</button>
+              <button className="bg-blue-600 text-white font-bold p-2">
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
