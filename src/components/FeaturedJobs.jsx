@@ -20,7 +20,7 @@ export default function FeaturedJobs() {
           </Link>
         </div>
 
-        <main className="lg:grid grid-cols-4 md:flex flex overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 gap-3">
+        <main className="lg:grid grid-cols-4 md:flex flex overflow-x-auto scrollbar-hide gap-3">
           <div className="border p-3 sm:w-full w-[274px] my-3 cursor-pointer">
             <div className="flex items-center justify-between mb-3">
               <img
