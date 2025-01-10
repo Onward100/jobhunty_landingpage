@@ -19,7 +19,7 @@ export default function LatestJobs() {
               </div>
             </Link>
           </div>
-          <div className="sm:grid sm:grid-cols-2 gap-4">
+          <div className="lg:grid lg:grid-cols-2 gap-4">
             <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
               <img
                 src="/assets/icons/nomad.png"
