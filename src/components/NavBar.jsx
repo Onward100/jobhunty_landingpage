@@ -13,7 +13,7 @@ export default function NavBar() {
             <img
               src="/assets/icons/jobhunty.png"
               alt="logo"
-              className="w-5 h-5"
+              className="w-7 h-7"
             />
             <p className="text-base font-semibold">JobHuntly</p>
           </div>

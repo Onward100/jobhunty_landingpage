@@ -6,6 +6,7 @@ import JobCategory from './components/JobCategory'
 import PostJobs from './components/PostJobs'
 import FeaturedJobs from './components/FeaturedJobs'
 import LatestJobs from './components/LatestJobs'
+import Footer from './components/Footer'
 export default function App() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function App() {
         <PostJobs/>
         <FeaturedJobs/>
         <LatestJobs/>
+        <Footer/>
       </div>
     </>
   )
