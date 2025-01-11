@@ -26,7 +26,7 @@ export default function PostJobs() {
           <img
             src="/assets/images/dashboard.png"
             alt="image"
-            className="w-full object-cover sm:relative sm:right-24 sm:-top-5"
+            className="w-full object-cover sm:relative sm:right-24"
           />
         </div>
         <div
