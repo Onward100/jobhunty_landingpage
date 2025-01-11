@@ -34,7 +34,10 @@ export default function NavBar() {
                 <Link href="#">Find Jobs</Link>
               </li>
               <li className="text-gray-500 font-semibold hover:underline">
-                <Link href="#">Browse Companies</Link>
+                <Link href="#">Browse </Link>
+              </li>
+              <li className="text-gray-500 font-semibold hover:underline">
+                <Link href="#"> Companies</Link>
               </li>
             </ul>
             <div className="flex flex-col mt-5">
@@ -71,8 +74,11 @@ export default function NavBar() {
               <Link href="#">Find Jobs</Link>
             </li>
             <li className="text-gray-500 font-semibold hover:underline">
-              <Link href="#">Browse Companies</Link>
+              <Link href="#">Browse </Link>
             </li>
+            <li className="text-gray-500 font-semibold hover:underline">
+                <Link href="#"> Companies</Link>
+              </li>
           </ul>
         </div>
         <div className="flex gap-3">
