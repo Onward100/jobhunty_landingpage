@@ -53,7 +53,7 @@ export default function Footer() {
                 </ul>
               </nav>
 
-              <nav>
+              <nav className="lg:relative lg:-left-20">
                 <h1 className="text-white font-bold text-base">Resources</h1>
                 <ul className="text-gray-300 mt-4">
                   <li className="mb-2">
