@@ -20,7 +20,7 @@ export default function LatestJobs() {
             </Link>
           </div>
           <div className="lg:grid lg:grid-cols-2 gap-4">
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/nomad.png"
                 alt="nomad"
@@ -50,7 +50,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/design.png"
                 alt="nomad"
@@ -77,7 +77,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/dev.png"
                 alt="nomad"
@@ -104,7 +104,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/hr2.png"
                 alt="nomad"
@@ -132,7 +132,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/brand2.png"
                 alt="nomad"
@@ -162,7 +162,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/assistance.png"
                 alt="nomad"
@@ -189,7 +189,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/nomad.png"
                 alt="nomad"
@@ -219,7 +219,7 @@ export default function LatestJobs() {
                 </div>
               </div>
             </div>
-            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:scale-105 cursor-pointer">
+            <div className="bg-white p-3 sm:flex sm:items-start gap-3 mb-3 transition duration-300 ease-in hover:-translate-x-2 cursor-pointer">
               <img
                 src="/assets/icons/hr.png"
                 alt="nomad"

@@ -30,7 +30,7 @@ export default function NavBar() {
         {showMenu && (
           <div className="absolute bg-white w-[50%] text-right p-4 shadow-md right-2 top-16 z-40">
             <ul className="list-none">
-              <li className="mb-2 text-gray-500 font-semibold hover:underline">
+              <li className="mb-2 text-gray-500 font-semibold hover:underline ">
                 <Link href="#">Find Jobs</Link>
               </li>
               <li className="text-gray-500 font-semibold hover:underline">
@@ -39,12 +39,12 @@ export default function NavBar() {
             </ul>
             <div className="flex flex-col mt-5">
               <Link href="#">
-                <button className="bg-white mb-4 hover:bg-blue-700 hover:text-white transition-transform duration-300 shadow-md font-semibold text-blue-700 rounded-sm p-2 w-full">
+                <button className="bg-white mb-4 hover:bg-blue-700 hover:text-white transition duration-300 ease-in shadow-md font-semibold text-blue-700 rounded-sm p-2 w-full">
                   Login
                 </button>
               </Link>
               <Link href="#">
-                <button className="bg-blue-700 hover:bg-white hover:text-blue-700 transition-transform duration-300 text-white font-semibold shadow-md rounded-sm p-2 w-full">
+                <button className="bg-blue-700 hover:bg-white hover:text-blue-700 transition duration-300 ease-in text-white font-semibold shadow-md rounded-sm p-2 w-full">
                   Sign Up
                 </button>
               </Link>
@@ -77,12 +77,12 @@ export default function NavBar() {
         </div>
         <div className="flex gap-3">
           <Link href="#">
-            <button className="bg-white mb-4 hover:bg-blue-700 hover:text-white transition-transform duration-300 shadow-md font-semibold text-blue-700 rounded-sm p-2 w-[108px]">
+            <button className="bg-white mb-4 hover:bg-blue-700 hover:text-white transition duration-300 ease-in shadow-md font-semibold text-blue-700 rounded-sm p-2 w-[108px]">
               Login
             </button>
           </Link>
           <Link href="#">
-            <button className="bg-blue-700 hover:bg-white hover:text-blue-700 transition-transform duration-300 text-white font-semibold shadow-md rounded-sm p-2 w-[108px]">
+            <button className="bg-blue-700 hover:bg-white hover:text-blue-700 transition duration-300 ease-in text-white font-semibold shadow-md rounded-sm p-2 w-[108px]">
               Sign Up
             </button>
           </Link>

@@ -30,7 +30,7 @@ export default function PostJobs() {
           />
         </div>
         <div
-          className="w-[100px] h-[50px] bg-white absolute right-0 bottom-0"
+          className="w-[150px] h-[60px] bg-white absolute right-0 bottom-0 sm:-right-20 md:-bottom-2"
           style={{
             clipPath: "polygon(0% 100%, 100% 100%, 50% 0%)",
           }}
