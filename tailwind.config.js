@@ -12,6 +12,9 @@ export default {
       colors: {
         customGreen: '#56CDAD',
       },
+      fontFamily: {
+        roboto: ['"Roboto"', 'sans-serif'],
+      },
     },
   },
   plugins: [],
